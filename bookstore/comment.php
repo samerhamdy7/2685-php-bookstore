@@ -15,7 +15,8 @@
         <a class='hover:text-blue-900' href="/" id="home">Home</a>
         <a class='hover:text-blue-900' href="users.php">Users</a>
         <a class='hover:text-blue-900' href="status.php">Post Status</a>
-        <a class='hover:text-blue-900' href="status.php">Posts</a>
+        <a class='hover:text-blue-900' href="posts.php">Posts</a>
+        <a class='hover:text-blue-900' href="reactions.php">ٌReactions</a>
         </nav>
 
 
@@ -51,7 +52,7 @@ foreach($data as $c):
         <div class=" overflow-hidden shadow-lg p-8 rounded-xl bg-gray-500">
             <div class="flex-col items-center justify-evenly border-2 border-black rounded-md p-2 mx-auto">
                 <h2 class="text-xl font-bold">ID : <?= $c['id']?></h2>
-                <p class="text-white font-bold p-1 flex gap-4"><?= $c['comment']?></p>
+                <p class="text-white font-bold p-1 flex gap-4"><span class="text-black ">Comment:</span><?= $c['comment']?></p>
                 <p class="text-white font-bold p-1 flex gap-4 flex justify-between"><span class="text-black">This
                         comment for post ID : </span><?= $c['post_id'] ?></p>
                 <p class="text-white font-bold p-1 flex gap-4 justify-between"><span class="text-black">This comment

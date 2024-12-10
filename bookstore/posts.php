@@ -15,6 +15,7 @@
     <a class='hover:text-blue-900' href="users.php">Users</a>
     <a class='hover:text-blue-900' href="comment.php">Comments</a>
     <a class='hover:text-blue-900' href="status.php">Post Status</a>
+    <a class='hover:text-blue-900' href="reactions.php">ٌReactions</a>
     
 
 

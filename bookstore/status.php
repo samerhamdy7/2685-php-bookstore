@@ -16,7 +16,8 @@
         <a class='hover:text-blue-900' href="/" id="home">Home</a>
         <a class='hover:text-blue-900' href="users.php">Users</a>
         <a class='hover:text-blue-900' href="comment.php">Comments</a>
-        <a class='hover:text-blue-900' href="status.php">Posts</a>
+        <a class='hover:text-blue-900' href="posts.php">Posts</a>
+        <a class='hover:text-blue-900' href="reactions.php">ٌReactions</a>
 
     </nav>
 
